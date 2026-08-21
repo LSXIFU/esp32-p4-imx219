@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+**/build/
+*.o
+*.a
+*.elf
+*.bin
+*.map
+*.out
+
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+managed_components/
+.espressif/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE 本地配置
+.vscode/
